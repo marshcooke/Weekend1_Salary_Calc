@@ -39,6 +39,8 @@ function calcInput() {
     $('#totalMonthlyCost').text(monthlySalaryCost);
 }
 
+// add apending information to populate stored employee data for each field. 
+// **should a table be built for this - can it be built in js?**
 
 
 // Object Constructor
