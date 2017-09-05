@@ -10,8 +10,8 @@ function readyNow() {
 var employees = [];
 
 // set variables to zero for future calculations
-var annualCost = 0;
-var monthlyCost = 0;
+var annualSalaryCost = 0;
+var monthlySalaryCost = 0;
 
 // Takes inputs and creates an object constructor, calculates monthly 
 // salary cost, appends to DOM
@@ -31,6 +31,12 @@ function calcInput() {
     $('#idNumIn').val(''), 
     $('#annualSalIn').val('');
     console.log(employees);
+
+    // totaling costs from salaries
+    annualSalaryCost =+ Number(newEmployee.annualSalary);
+    // total monthly cost of salaries (annual cost/12)
+    monthlySalaryCost = Math.round(annualSalaryCost / 12);
+    $('#totalMonthlyCost').text(monthlySalaryCost);
 }
 
 
