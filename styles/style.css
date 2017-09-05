@@ -1,31 +1,27 @@
-a {
-    color: #B3650A;
-    font-family: Calibri;
-  }
 body {
-    font-family: Calibri;
+    font-family: Avant Garde, sans-serif;
     background-color: #D8CFE5;
   }
 main {
-    font-family: Calibri;
+    font-family: Avant Garde, sans-serif;
     margin-left: 3%;
   }
 h1 {
     color: #B3650A;
-    font-family: Arial;
+    font-family: Avant Garde, sans-serif;
     margin-left: 1%;
   }
 h2 {
     color: #B3650A;
-    font-family: Arial;
+    font-family: Avant Garde, sans-serif;
   }
-h8 {
-    color: #B3650A;
-    font-family: Arial;
-    margin-left: 1%;
+h6 {
+    color: #69058C;
+    font-family: Avant Garde, sans-serif;
+    text-align: center;
   }
 p {
     color: #69058C;
-    font-family: Calibri;
+    font-family: Avant Garde, sans-serif;
   }
   
