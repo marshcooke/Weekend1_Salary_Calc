@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <script src="scripts/script.js"></script>
+    <link rel="stylesheet" href="styles/style.css">
     <script src="vendors/jquery-3.2.1.min.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +10,28 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <header>
+        <h1>Salary Calculator</h1>
+    </header>
+    <main>
+        <section id="employeeDetails">
+            <p>Complete employee information in the following form:</p>
+            <input class="input" type="text" placeholder+"Employee First Name" id="firstIn"/>
+            <input class="input" type="text" placeholder+"Employee Last Name" id="lastIn"/>
+            <input class="input" type="text" placeholder+"Employee Job Title" id="jobTitleIn"/></br>
+            <input class="input" type="number" placeholder+"Employee ID Number" id="idNumIn"/>
+            <input class="input" type="number" placeholder+"Employee Annual Salary" id="annualSalIn"/></br>
+        <button id="submit">Submit</button>
+        </section>
+        <section id="monthlyCosts">
+            <h2>Monthly Salary Costs</h2>
+            <p>PRINT TOTAL HERE IN $.</p>
+        </section>
+        <!-- TO ADD NEXT <section id="printing-employee information">
+        </section> -->
+    </main>
+    <footer>
+        <h8>Copyright 2017 Canopus Calculator</h8>
+    </footer>
 </body>
 </html>
