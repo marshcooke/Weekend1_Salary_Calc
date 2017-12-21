@@ -17,23 +17,22 @@ var monthlySalaryCost = 0;
 // salary cost, appends to DOM
 function calcInput() {
     // yes this worked: console.log('submitt button working?');
-    var newEmployee = new Employee ($('#firstIn').val(), 
-        $('#lastIn').val(), 
-        $('#jobTitleIn').val(), 
-        $('#idNumIn').val(), 
+    var newEmployee = new Employee($('#firstIn').val(),
+        $('#lastIn').val(),
+        $('#jobTitleIn').val(),
+        $('#idNumIn').val(),
         $('#annualSalIn').val());
 
-
     // clear contents in form fields
-    $('#firstIn').val(''), 
-    $('#lastIn').val(''), 
-    $('#jobTitleIn').val(''), 
-    $('#idNumIn').val(''), 
-    $('#annualSalIn').val('');
+    $('#firstIn').val(''),
+        $('#lastIn').val(''),
+        $('#jobTitleIn').val(''),
+        $('#idNumIn').val(''),
+        $('#annualSalIn').val('');
     console.log(employees);
 
     // totaling costs from salaries
-    annualSalaryCost =+ Number(newEmployee.annualSalary);
+    annualSalaryCost = +Number(newEmployee.annualSalary);
     // total monthly cost of salaries (annual cost/12)
     monthlySalaryCost = Math.round(annualSalaryCost / 12);
     $('#totalMonthlyCost').text(monthlySalaryCost);
@@ -41,7 +40,6 @@ function calcInput() {
 
 // add apending information to populate stored employee data for each field. 
 // **should a table be built for this - can it be built in js?**
-
 
 // Object Constructor
 function Employee(firstIn, lastIn, jobTitleIn, idNumIn, annualSalIn) {
@@ -52,7 +50,6 @@ function Employee(firstIn, lastIn, jobTitleIn, idNumIn, annualSalIn) {
     this.annualSalary = annualSalIn;
     employees.push(this);
 }
-
 
 // calling document ready function
 $(document).ready(readyNow);

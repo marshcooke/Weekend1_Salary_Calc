@@ -1,3 +1,6 @@
+# Project completed during weekend 1 at Prime
+While enrolled at Prime Digital Academy, we took on weekend code challenges. Week 1 is outlined below:
+
 # Weekend Challenge 1: Salary Calculator
 Create an application that records employee salaries and adds salaries up to report monthly costs. 
 

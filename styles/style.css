@@ -1,27 +1,31 @@
 body {
-    font-family: Avant Garde, sans-serif;
-    background-color: #D8CFE5;
-  }
+  font-family: Avant Garde, sans-serif;
+  background-color: #D8CFE5;
+}
+
 main {
-    font-family: Avant Garde, sans-serif;
-    margin-left: 3%;
-  }
+  font-family: Avant Garde, sans-serif;
+  margin-left: 3%;
+}
+
 h1 {
-    color: #B3650A;
-    font-family: Avant Garde, sans-serif;
-    margin-left: 1%;
-  }
+  color: #B3650A;
+  font-family: Avant Garde, sans-serif;
+  margin-left: 1%;
+}
+
 h2 {
-    color: #B3650A;
-    font-family: Avant Garde, sans-serif;
-  }
+  color: #B3650A;
+  font-family: Avant Garde, sans-serif;
+}
+
 h6 {
-    color: #69058C;
-    font-family: Avant Garde, sans-serif;
-    text-align: center;
-  }
+  color: #69058C;
+  font-family: Avant Garde, sans-serif;
+  text-align: center;
+}
+
 p {
-    color: #69058C;
-    font-family: Avant Garde, sans-serif;
-  }
-  
+  color: #69058C;
+  font-family: Avant Garde, sans-serif;
+}
